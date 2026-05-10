@@ -2,7 +2,7 @@ import * as MealPlanModel from '../models/MealPlan.js';
 import { generateMealPlanWithAI } from '../utils/aiHelper.js';
 import * as UserModel from '../models/User.js';
 
-// Get all meal plans
+// Get all meal plan
 export const getMealPlans = async (req, res, next) => {
   try {
     const mealPlans = await MealPlanModel.getMealPlansByUserId(req.user.id);
