@@ -1,4 +1,5 @@
 {
   "buildCommand": "npm install && npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "root": "Frontend/ai-recipe-generator-ui-boilerplate-code"
 }
