@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd Frontend/ai-recipe-generator-ui-boilerplate-code && npm install && npm run build",
+  "outputDirectory": "Frontend/ai-recipe-generator-ui-boilerplate-code/dist",
+  "env": {
+    "VITE_API_URL": "@vite_api_url"
+  }
+}
